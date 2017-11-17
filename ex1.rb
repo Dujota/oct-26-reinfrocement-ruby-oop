@@ -9,7 +9,7 @@ array.each do |word|
   elsif word == word.downcase
     puts "lowercase"
   else
-   puts word
+   puts "#{word}"
   end
 
 end
